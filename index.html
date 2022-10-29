@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<title>Furniking</title>
+</head>
+<body>
+	<div class="headerTop">
+		<div class="contentWrapper">
+			<div class="headerTopContent">
+				<div class="headerTopLeft">Welcome to our online shop</div>
+				<div class="headerTopRight">
+					<select name="langSel" id="langSel" class="langSel">
+						<option value="ENG" class="engSel">English (USD)</option>
+						<option value="RU" class="ruSel">Russian (RUB)</option>
+					</select>
+					<div class="peregorodka"></div>
+					<div class="loginOrSignup">
+						<div class="login">Login</div>
+						or
+						<div class="signup">Sign up</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="headerMain">
+		<div class="contentWrapper">
+			<div class="headerMainContent">
+				<div class="logo">
+					<div class="logoImg"></div>
+					<div class="logoName">Furniking</div>
+				</div>
+				<div class="searchbar">
+					<input type="text" class="searchbarInp" placeholder="Search here">
+					<div class="selectSearchWrapper">
+						<select name="searchCategory" id="searchCategory" class="searchCategory">
+							<option value="all">Categories</option>
+							<option value="Furniture">Furniture</option>
+							<option value="Amrature">Amrature</option>
+							<option value="Tabble">Tabble</option>
+							<option value="Chair">Chair</option>
+							<option value="Sofa">Sofa</option>
+							<option value="Mirrors">Mirrors</option>
+							<option value="Stools">Stools</option>
+							<option value="Benches">Benches</option>
+						</select>
+					</div>
+					<div class="searchButton">
+						<div class="searchIcon"></div>
+					</div>
+				</div>
+				<div class="buttonsHeaderMain">
+					<div class="shoppingCartIcon"><div class="bubbleCart" id="cartItems">0</div></div>
+					<div class="notificationIcon"></div>
+					<div class="profileIcon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="headerBottom">
+		<div class="contentWrapper">
+			<div class="headerBotContent">
+				<div class="allCollections"><div class="allColIcon"></div><div class="allColText">ALL COLLECTIONS</div></div>
+				<div class="headerBotListBlock">
+					<div class="headerBotListBlockIn">HOME</div>
+					<div class="headerBotListBlockIn">SHOP</div>
+					<div class="headerBotListBlockIn">BLOG</div>
+					<div class="headerBotListBlockIn">ABOUT</div>
+					<div class="headerBotListBlockIn">CONTACT US</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="block1">
+		<div class="contentWrapper">
+			<div class="block1content">
+				<div class="block1Menu">
+					<div class="block1MenuItem"><p class="block1MenuItemText">All</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">New Arrivals</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">Hot Sale</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">Furniture</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">Amrature</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">Tabble</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">Chair</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">Sofa</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">Mirrors</p></div>
+					<div class="block1MenuItem"><p class="block1MenuItemText">Stools</p></div>
+					<div class="block1MenuItem block1MenuItemLast"><p class="block1MenuItemText">Benches</p></div>
+				</div>
+				<div class="block1Slider">
+					<div class="sliderChoices">
+						<div class="sliderChoice sliderChoiceActive" id="choice1"></div>
+						<div class="sliderChoice" id="choice2"></div>
+						<div class="sliderChoice" id="choice3"></div>
+						<div class="sliderChoice" id="choice4"></div>
+					</div>
+					<div class="sliderLine">
+						<div class="sliderSlide slide1">
+							<div class="slide1Block slide1Block1">
+								<div class="slide1Block1Text1">TOP COLLECTIONS 2022</div>
+								<div class="slide1Block1Text2"><div class="slide1Block1Text2Poloska"></div> We Serve Your <br> Dream Furniture</div>
+								<div class="slide1Block1Text3">Get 50% off all products</div>
+								<div class="slide1Block1Shopnow">SHOP NOW</div>
+							</div>
+							<div class="slide1Block slide1Block2"></div>
+							<div class="slide1Block slide1Block3">
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide1Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$120</div>
+									<div class="slide1Block3CardItemname">Modern chair</div>
+								</div>
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide1Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$120</div>
+									<div class="slide1Block3CardItemname">Modern chair</div>
+								</div>
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide1Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$120</div>
+									<div class="slide1Block3CardItemname">Modern chair</div>
+								</div>
+							</div>
+						</div>
+						<div class="sliderSlide slide2">
+							<div class="slide1Block slide1Block1">
+								<div class="slide1Block1Text1">TOP COLLECTIONS 2022</div>
+								<div class="slide1Block1Text2"><div class="slide1Block1Text2Poloska"></div> We Serve Your <br> Dream Furniture</div>
+								<div class="slide1Block1Text3">Get 50% off all products</div>
+								<div class="slide1Block1Shopnow">SHOP NOW</div>
+							</div>
+							<div class="slide1Block slide2Block2"></div>
+							<div class="slide1Block slide1Block3">
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide2Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$180</div>
+									<div class="slide1Block3CardItemname">Home Alise Sofa</div>
+								</div>
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide2Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$180</div>
+									<div class="slide1Block3CardItemname">Home Alise Sofa</div>
+								</div>
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide2Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$180</div>
+									<div class="slide1Block3CardItemname">Home Alise Sofa</div>
+								</div>
+							</div>
+						</div>
+						<div class="sliderSlide slide3">
+							<div class="slide1Block slide1Block1">
+								<div class="slide1Block1Text1">TOP COLLECTIONS 2022</div>
+								<div class="slide1Block1Text2"><div class="slide1Block1Text2Poloska"></div> We Serve Your <br> Dream Furniture</div>
+								<div class="slide1Block1Text3">Get 50% off all products</div>
+								<div class="slide1Block1Shopnow">SHOP NOW</div>
+							</div>
+							<div class="slide1Block slide3Block2"></div>
+							<div class="slide1Block slide1Block3">
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide3Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$250</div>
+									<div class="slide1Block3CardItemname">Modern Chair</div>
+								</div>
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide3Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$250</div>
+									<div class="slide1Block3CardItemname">Modern Chair</div>
+								</div>
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide3Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$250</div>
+									<div class="slide1Block3CardItemname">Modern Chair</div>
+								</div>
+							</div>
+						</div>
+						<div class="sliderSlide slide4">
+							<div class="slide1Block slide1Block1">
+								<div class="slide1Block1Text1">TOP COLLECTIONS 2022</div>
+								<div class="slide1Block1Text2"><div class="slide1Block1Text2Poloska"></div> We Serve Your <br> Dream Furniture</div>
+								<div class="slide1Block1Text3">Get 50% off all products</div>
+								<div class="slide1Block1Shopnow">SHOP NOW</div>
+							</div>
+							<div class="slide1Block slide4Block2"></div>
+							<div class="slide1Block slide1Block3">
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide4Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$200</div>
+									<div class="slide1Block3CardItemname">Office Chair</div>
+								</div>
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide4Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$200</div>
+									<div class="slide1Block3CardItemname">Office Chair</div>
+								</div>
+								<div class="slide1Block3Card">
+									<div class="slide1Block3CardFading">
+										<div class="slide1Block3CardFadingPlus" id="btnPlus">+</div>
+									</div>
+									<div class="slide4Block3CardImg"></div>
+									<div class="slide1Block3CardPrice" id="changCur">$200</div>
+									<div class="slide1Block3CardItemname">Office Chair</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="plussesLine">
+		<div class="contentWrapper">
+			<div class="plussesLineContent">
+				<div class="plussesLineCard">
+					<div class="plussesLineCardIcon plussesLineCardIcon1"></div>
+					<div class="plussesLineCardText">
+						<div class="plussesLineCardTextTop">Free Shipping</div>
+						<div class="plussesLineCardTextBot">Orders over <p id="changCur">$100</p></div>
+					</div>
+				</div>
+				<div class="plussesLineCard">
+					<div class="plussesLineCardIcon plussesLineCardIcon2"></div>
+					<div class="plussesLineCardText">
+						<div class="plussesLineCardTextTop">Smart Gift Card</div>
+						<div class="plussesLineCardTextBot">Buy <p id="changCur">$1000</p> to get card</div>
+					</div>
+				</div>
+				<div class="plussesLineCard">
+					<div class="plussesLineCardIcon plussesLineCardIcon3"></div>
+					<div class="plussesLineCardText">
+						<div class="plussesLineCardTextTop">Quick Payment</div>
+						<div class="plussesLineCardTextBot">100% secure payment</div>
+					</div>
+				</div>
+				<div class="plussesLineCard">
+					<div class="plussesLineCardIcon plussesLineCardIcon4"></div>
+					<div class="plussesLineCardText">
+						<div class="plussesLineCardTextTop">24/7 Support</div>
+						<div class="plussesLineCardTextBot">Quick support</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="readmores">
+		<div class="contentWrapper">
+			<div class="readmoresContent">
+				<div class="readmoresBlock1">
+					<div class="readmoresBlock1Text">
+						<div class="readmoresBlock1Text1">Modern Furniture Collections</div>
+						<div class="readmoresBlock1Text2">Starting from <b id="changCur">$500</b></div>
+						<div class="readmoresBlockText3">Read more<div class="readmoresBlockText3Pointer"></div></div>
+					</div>
+				</div>
+				<div class="readmoresBlock2">
+					<div class="readmoresBlock2Card readmoresBlock2Card1">
+						<div class="readmoresBlock2Card1Text">
+							<div class="readmoresBlock2Card1Text1">Geometric Bookcase</div>
+							<div class="readmoresBlock2Card1Text2">Up to 20% discount</div>
+							<div class="readmoresBlockText3">Read more<div class="readmoresBlockText3Pointer"></div></div>
+						</div>
+					</div>
+					<div class="readmoresBlock2Card readmoresBlock2Card2">
+						<div class="readmoresBlock2Card2Text">
+							<div class="readmoresBlock2Card2Text1">Minimal Sofa collections </div>
+							<div class="readmoresBlock2Card2Text2">Sale upto 40% discount</div>
+							<div class="readmoresBlockText3">Read more<div class="readmoresBlockText3Pointer"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="trending">TRENDING</div>
+	<div class="secondSliderButtons">
+		<div class="secondSliderBtn secondSliderBtnActive" id="secondSliderBtn">Top Products</div>
+		<div class="secondSliderBtn" id="secondSliderBtn">New Arrivals</div>
+		<div class="secondSliderBtn" id="secondSliderBtn">Best Sellers</div>
+	</div>
+	<div class="secondSliderz">
+		<div class="contentWrapper">
+			<div class="secondSlider">
+				<div class="secondSliderLine" id="secondSliderLine">
+					<div class="secondSliderSlide1">
+						<div class="secondSliderSlideCardLine">
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card1Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Minimal LCD chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$180</div><div class="secondSliderSlideText3Left2" id="changCur">$250</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card1Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Minimal LCD chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$180</div><div class="secondSliderSlideText3Left2" id="changCur">$250</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card1Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Minimal LCD chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$180</div><div class="secondSliderSlideText3Left2" id="changCur">$250</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card1Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Minimal LCD chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$180</div><div class="secondSliderSlideText3Left2" id="changCur">$250</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="secondSliderSlideCardLine">
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card2Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Elegent wood chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$120</div><div class="secondSliderSlideText3Left2" id="changCur">$150</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card2Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Elegent wood chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$120</div><div class="secondSliderSlideText3Left2" id="changCur">$150</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card2Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Elegent wood chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$120</div><div class="secondSliderSlideText3Left2" id="changCur">$150</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card2Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Elegent wood chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$120</div><div class="secondSliderSlideText3Left2" id="changCur">$150</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="secondSliderSlide2">
+						<div class="secondSliderSlideCardLine">
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card3Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Buskbo armchair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$130</div><div class="secondSliderSlideText3Left2" id="changCur">$150</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card3Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Buskbo armchair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$130</div><div class="secondSliderSlideText3Left2" id="changCur">$150</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card3Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Buskbo armchair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$130</div><div class="secondSliderSlideText3Left2" id="changCur">$150</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card3Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Buskbo armchair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$130</div><div class="secondSliderSlideText3Left2" id="changCur">$150</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="secondSliderSlideCardLine">
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="newCorner">New</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="newCorner">New</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card4Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Minimal Wood chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$180</div><div class="secondSliderSlideText3Left2" id="changCur">$250</div></div>
+										<div class="secondSliderSlideText3Right2"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="newCorner">New</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="newCorner">New</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card4Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Minimal Wood chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$180</div><div class="secondSliderSlideText3Left2" id="changCur">$250</div></div>
+										<div class="secondSliderSlideText3Right2"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="newCorner">New</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="newCorner">New</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card4Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Minimal Wood chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$180</div><div class="secondSliderSlideText3Left2" id="changCur">$250</div></div>
+										<div class="secondSliderSlideText3Right2"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="newCorner">New</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="newCorner">New</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card4Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Minimal Wood chair</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$180</div><div class="secondSliderSlideText3Left2" id="changCur">$250</div></div>
+										<div class="secondSliderSlideText3Right2"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="secondSliderSlide3">
+						<div class="secondSliderSlideCardLine">
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="newCorner">New</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="newCorner">New</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card6Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Dining chairs</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$100</div><div class="secondSliderSlideText3Left2" id="changCur">$120</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="newCorner">New</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="newCorner">New</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card6Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Dining chairs</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$100</div><div class="secondSliderSlideText3Left2" id="changCur">$120</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card5Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Modern chairs</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$100</div><div class="secondSliderSlideText3Left2" id="changCur">$120</div></div>
+										<div class="secondSliderSlideText3Right2"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card5Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Modern chairs</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$100</div><div class="secondSliderSlideText3Left2" id="changCur">$120</div></div>
+										<div class="secondSliderSlideText3Right2"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="secondSliderSlideCardLine">
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card5Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Modern chairs</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$100</div><div class="secondSliderSlideText3Left2" id="changCur">$120</div></div>
+										<div class="secondSliderSlideText3Right2"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="saleCorner">Sale</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="saleCorner">Sale</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card5Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Modern chairs</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$100</div><div class="secondSliderSlideText3Left2" id="changCur">$120</div></div>
+										<div class="secondSliderSlideText3Right2"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="newCorner">New</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="newCorner">New</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card6Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Dining chairs</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$100</div><div class="secondSliderSlideText3Left2" id="changCur">$120</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="secondSliderSlideCard secondSliderSlideCard1">
+								<div class="newCorner">New</div>
+								<div class="secondSLiderSlideCardImgFading">
+									<div class="newCorner">New</div>
+									<div class="btnsSecondSliderFading">
+										<div class="favoriteThisSecondSlider"></div>
+										<div class="addToCartSecondSlider" id="btnPlus"></div>
+										<div class="viewSecondSlider"></div>
+									</div>
+								</div>
+								<div class="secondSliderSlide1Card6Img"></div>
+								<div class="secondSliderSlideText">
+									<div class="secondSliderSlideText1">CHAIR</div>
+									<div class="secondSliderSlideText2">Dining chairs</div>
+									<div class="secondSliderSlideText3">
+										<div class="secondSliderSlideText3Left"><div class="secondSliderSlideText3Left1" id="changCur">$100</div><div class="secondSliderSlideText3Left2" id="changCur">$120</div></div>
+										<div class="secondSliderSlideText3Right1"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="specialOffer">SPECIAL OFFER</div>
+	<div class="specialOffersBlock">
+		<div class="contentWrapper">
+			<div class="specialOffersContent">
+				<div class="specialOffersBlocki specialOffersBlock1">
+					<div class="off40">40% off</div>
+					<div class="specialOffersBlockiText">
+						<div class="specialOffersBlockiText1">Modern chair</div>
+						<div class="specialOffersBlockiText2">Hot chairs of the modern era are now <br> available in our stock.</div>
+						<div class="specialOffersBlockiText3">
+							<div class="specialOffersBlockiText3Act" id="changCur">$75</div>
+							<div class="specialOffersBlockiText3Pre" id="changCur">$150</div>
+							<div class="specialOffersBlockiText3Shp">SHOP NOW</div>
+						</div>
+					</div>
+					<div class="timer1">
+						<div class="timerBallWrap"><p class="timer1Days">10</p><p class="timerText">DAYS</p></div>
+						<div class="timerBallWrap"><p class="timer1Hrs">15</p><p class="timerText">HRS</p></div>
+						<div class="timerBallWrap"><p class="timer1Mins">30</p><p class="timerText">MIN</p></div>
+						<div class="timerBallWrap"><p class="timer1Secs">22</p><p class="timerText">SECS</p></div>
+					</div>
+				</div>
+				<div class="specialOffersBlocki specialOffersBlock2">
+					<div class="off40">50% off</div>
+					<div class="specialOffersBlockiText">
+						<div class="specialOffersBlockiText1">Modern chair</div>
+						<div class="specialOffersBlockiText2">Hot chairs of the modern era are now <br> available in our stock.</div>
+						<div class="specialOffersBlockiText3">
+							<div class="specialOffersBlockiText3Act" id="changCur">$75</div>
+							<div class="specialOffersBlockiText3Pre" id="changCur">$150</div>
+							<div class="specialOffersBlockiText3Shp">SHOP NOW</div>
+						</div>
+					</div>
+					<div class="timer2">
+						<div class="timerBallWrap"><p class="timer2Days">15</p><p class="timerText">DAYS</p></div>
+						<div class="timerBallWrap"><p class="timer2Hrs">8</p><p class="timerText">HRS</p></div>
+						<div class="timerBallWrap"><p class="timer2Mins">20</p><p class="timerText">MIN</p></div>
+						<div class="timerBallWrap"><p class="timer2Secs">12</p><p class="timerText">SECS</p></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="whatOurCustomerSay">WHAT OUR CUSTOMER SAYS</div>
+	<div class="wocsBlock">
+		<div class="wocsContent">
+			<div class="wocsBtn wocsBtnPrev"></div>
+			<div class="wocsSlider">
+				<div class="wocsSliderLine">
+					<div class="wocsSliderSlide wocsSliderSlide1">
+						<div class="wocsSliderCelebrityImg wocsSliderCelebrityImg1"></div>
+						<div class="wocsSliderCelebrityText">
+							<div class="wocsSliderCelebrityTextMain">I like Furniking.com and as compared to other company it's polices and <br> customers support is very good easy to reach., also many time they unable <br> to delivered. The ultricies are pregnant while the quis is suspended. Risus <br> commodo viverra maecenas accumsan lacus vel facilisist amet.</div>
+							<div class="wocsSliderCelebrityName">Maksim Lavrov</div>
+							<div class="wocsSliderCelebrityProf">Co-founder</div>
+						</div>
+					</div>
+					<div class="wocsSliderSlide wocsSliderSlide2">
+						<div class="wocsSliderCelebrityImg wocsSliderCelebrityImg2"></div>
+						<div class="wocsSliderCelebrityText">
+							<div class="wocsSliderCelebrityTextMain">I like Furniking.com and as compared to other company it's polices and <br> customers support is very good easy to reach., also many time they unable <br> to delivered. The ultricies are pregnant while the quis is suspended. Risus <br> commodo viverra maecenas accumsan lacus vel facilisist amet.</div>
+							<div class="wocsSliderCelebrityName">Saul Goodman</div>
+							<div class="wocsSliderCelebrityProf">Lawyer</div>
+						</div>
+					</div>
+					<div class="wocsSliderSlide wocsSliderSlide3">
+						<div class="wocsSliderCelebrityImg wocsSliderCelebrityImg3"></div>
+						<div class="wocsSliderCelebrityText">
+							<div class="wocsSliderCelebrityTextMain">I like Furniking.com and as compared to other company it's polices and <br> customers support is very good easy to reach., also many time they unable <br> to delivered. The ultricies are pregnant while the quis is suspended. Risus <br> commodo viverra maecenas accumsan lacus vel facilisist amet.</div>
+							<div class="wocsSliderCelebrityName">Kentaro Miura</div>
+							<div class="wocsSliderCelebrityProf">Investor</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wocsBtn wocsBtnNext"></div>
+		</div>
+	</div>
+	<div class="ourLatestArticles">OUR LATEST ARTICLES</div>
+	<div class="olaBlock">
+		<div class="contentWrapper">
+			<div class="olaContent">
+				<div class="olaContentTop">
+					<div class="olaCard olaCard1">
+						<div class="olaCardText">
+							<div class="tagNDate"><div class="tag tagFurniture"><div class="tagIcon"></div>FURNITURE</div><div class="tagDate">23 September 2022</div></div>
+							<div class="olaCardText1">Begineer guide buying <br> minimal sofa</div>
+							<div class="olaCardReadmore">Read more</div>
+						</div>
+					</div>
+					<div class="olaCard olaCard2">
+						<div class="olaCardText">
+							<div class="tagNDate"><div class="tag tagTable"><div class="tagIcon"></div>TABLE</div><div class="tagDate">23 September 2022</div></div>
+							<div class="olaCardText1">Buying best minimal <br> computer table</div>
+							<div class="olaCardReadmore">Read more</div>
+						</div>
+					</div>
+				</div>
+				<div class="olaContentBot">
+					<div class="olaCard olaCard3">
+						<div class="olaCardText">
+							<div class="tagNDate"><div class="tag tagBench"><div class="tagIcon"></div>BENCH</div><div class="tagDate">23 march 2022</div></div>
+							<div class="olaCardText1">How to choose best <br> modern bench</div>
+							<div class="olaCardReadmore">Read more</div>
+						</div>
+					</div>
+					<div class="olaCard olaCard4">
+						<div class="olaCardText">
+							<div class="tagNDate"><div class="tag tagChair"><div class="tagIcon"></div>CHAIR</div><div class="tagDate">23 march 2022</div></div>
+							<div class="olaCardText1">Best Summer Outfit <br> Style in this Country</div>
+							<div class="olaCardReadmore">Read more</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottomerBlock">
+		<div class="contentWrapper">
+			<div class="bottomerContent">
+				<div class="bottomerContentBlock1">
+					<div class="furnikingLogo"><div class="furnikingLogoIcon"></div>Furniking</div>
+					<div class="bottomerContentBlock1Text">Funking is the a popular Ecommerce site. <br> Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor</div>
+					<div class="bottomerContentBlock1Socials"><div class="fb"></div><div class="twt"></div><div class="inst"></div><div class="pint"></div></div>
+				</div>
+				<div class="bottomerContentBlock2">
+					<div class="bottomerContentBlock2Text1">Help</div>
+					<div class="bottomerContentBlock2Text2">
+						<p class="pPointer">Privacy Policy</p>
+						<p class="pPointer">Shipping & Delivery</p>
+						<p class="pPointer">Refund Policy</p>
+						<p class="pPointer">Track Your Order</p>
+					</div>
+				</div>
+				<div class="bottomerContentBlock2">
+					<div class="bottomerContentBlock2Text1">Store</div>
+					<div class="bottomerContentBlock2Text2">
+						<p class="pPointer">Furniture</p>
+						<p class="pPointer">Tabble</p>
+						<p class="pPointer">Sofa</p>
+						<p class="pPointer">Other</p>
+					</div>
+				</div>
+				<div class="bottomerContentBlock2">
+					<div class="bottomerContentBlock2Text1">Supports</div>
+					<div class="bottomerContentBlock2Text2">
+						<p class="pPointer">Feedback</p>
+						<p class="pPointer">Contact us</p>
+						<p class="pPointer">Download app</p>
+						<p class="pPointer">Terms of condition</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottomer2Block">
+		<div class="contentWrapper">
+			<div class="bottomer2Content">
+				<div class="bottomer2ContentLeft">© 2021 Funking - All rights reserved.</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/bubbleCart.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="js/secondSlider.js"></script>
+	<script src="js/onloadInitiate.js"></script>
+	<script src="js/Ots.js"></script>
+	<script src="js/secondOts.js"></script>
+	<script src="js/thirdSlider.js"></script>
+	<script src="js/currencyChange.js"></script>
+</body>
+</html>
